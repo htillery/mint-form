@@ -1,0 +1,286 @@
+html {
+    background-image: url(./images/josiah-ingels-1310095-unsplash.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover; 
+}
+
+
+body, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Top sign-in button section */
+
+#sign-in {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#signin-text {
+    text-align: right;
+    font-size: 12px;
+    color: #505050;
+}
+
+#signin-text a{
+    color: rgb(95, 126, 0);
+}
+
+
+
+
+#signin-button a {
+    background: rgb(95, 126, 0);
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    margin-left: 15px;
+    padding: 7px 20px;
+    line-height: 30px;
+    transition: border-radius .5s;
+}
+
+#signin-button a:hover {
+    background-color: rgb(182, 179, 0);
+    border-radius: 25px;
+}
+
+#signin-button i {
+    margin-right: 7px;
+}
+
+
+
+/* Logo section */
+
+#logo-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#intuit-logo {
+    opacity: .40;
+    margin-bottom: 10px;
+    
+}
+
+#threelogo-section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    color: #858585;
+    font-weight: 200;
+}
+
+/* 3 logo animation */
+
+#threelogo-section {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    /* -webkit-transition-timing-function: ease-in-out; */
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  /* end logo animation */
+
+#mint, #quickbooks, #turbotax {
+    margin: 0 7px;
+    display: flex;
+}
+
+#mint img, #quickbooks img, #turbotax img {
+    height: 27px;
+    width: auto;
+}
+
+
+/* form section */
+
+#form-heading {
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #4C4C4C;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+h2 a {
+    color: rgb(95, 126, 0);
+    font-size: 12px;
+}
+
+form {
+    background: white;
+    border: 1px solid #C1C5C8;;
+    text-align: center;
+    border-radius: 2px;
+    width: 318px;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+
+.field {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+
+label {
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 6px;
+}
+
+input {
+    width: 99%;
+    min-width: 160px;
+    height: 34px;
+    border-radius: 3px;
+    border: 1px solid #C1C5C8;
+    line-height: 1.3em;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#phone-disclaimer {
+font-size: 10px;
+margin-top: 3px;
+
+}
+
+
+
+
+#password {
+    background-image: url("./images/lock-open-solid.svg");
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: 96% 50%;
+}
+
+
+
+#phone-disclaimer {
+    background: none;
+}
+
+#createaccount-button {
+    background-color: rgb(95, 126, 0);
+    transition: border-radius .5s;
+    padding: 10px 20px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 30px;  
+}
+
+#createaccount-button:hover {
+    background-color: rgb(182, 179, 0);
+    border-radius: 25px;
+}
+
+
+
+
+
+#createaccount-button a {
+    color: white;
+    font-size: 17px;
+    margin-left: 5px;     
+}
+
+#form-agreement p {
+    font-size: 12px;
+    font-weight: 400;
+    background: none;
+    color: #757575;
+    font-style: italic;
+}
+
+#form-agreement a {
+    color: rgb(95, 126, 0);
+}
+
+#form-disclaimer {
+    margin: 30px -30px -30px -30px;
+}
+
+#form-disclaimer p {
+    font-size: 10px;
+    color: #757575;
+    padding: 20px;
+    background-color: #ECEEF1;
+}
+
+#form-disclaimer a {
+    color: rgb(95, 126, 0);
+
+}
+
+
+/* footer */
+
+footer {
+    margin-bottom: 20px;
+}
+
+footer p, footer a {
+color: white;
+font-size: 12px;
+text-align: center;
+
+}
+
+footer a {
+    margin: 0 3px;
+}
+
+#disclaimer-links {
+    text-align: center;
+    margin-top: 30px;
+    
+}
